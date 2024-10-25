@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <title>Estado de Impresión</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Estado de Impresión</h1>
+        <div class="status-container">
+            <p>Documento: <span id="document_name">{{ job_info.document_name }}</span></p>
+            <p>Estado: <span id="status">{{ job_info.status }}</span></p>
+            <p>Impresora: <span id="printer">Nodo {{ job_info.node_id }}</span></p>
+        </div>
+        <button onclick="window.location.href='/'">Regresar</button>
+    </div>
+</body>
+</html>
