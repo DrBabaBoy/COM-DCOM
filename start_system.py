@@ -1,4 +1,3 @@
-# start_system.py
 import subprocess
 import time
 

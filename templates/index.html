@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <h1>Enviar Documento para Impresión</h1>
-        <form action="/print" method="post">
+        <form action="/print" method="post" enctype="multipart/form-data">
             <label for="document">Nombre del documento:</label>
             <input type="text" id="document" name="document" required>
             <label for="print_type">Tipo de impresión:</label>
@@ -18,6 +18,8 @@
             </select>
             <label for="copies">Número de copias:</label>
             <input type="number" id="copies" name="copies" min="1" value="1" required>
+            <label for="file">Subir Archivo:</label>
+            <input type="file" id="file" name="file" accept=".txt,.pdf,.jpg,.jpeg,.png" required>
             <button type="submit">Imprimir</button>
         </form>
     </div>
