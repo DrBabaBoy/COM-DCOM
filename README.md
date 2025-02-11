@@ -21,9 +21,3 @@ This project simulates a **print server environment** where multiple clients sub
 - **Flask**: HTTP server for handling client requests.
 - **Threading**: Concurrent management of printers and jobs.
 - **HTML/CSS**: Basic client interface for file submission.
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.8+
-- pip package manager
