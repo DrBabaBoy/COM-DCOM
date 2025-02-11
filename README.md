@@ -1,8 +1,5 @@
 # COM-DCOM Print Server Simulation
 
-![Project Banner](https://via.placeholder.com/800x200.png?text=COM-DCOM+Print+Server+Simulation) 
-*(Optional: Add a relevant banner image if available)*
-
 A distributed system simulation demonstrating load-balanced printing tasks using COM/DCOM architecture, with virtual printers and client-server communication.
 
 ## 📌 Overview
